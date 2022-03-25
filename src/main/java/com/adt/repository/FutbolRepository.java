@@ -4,6 +4,8 @@ import com.adt.model.Futbol;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.PriorityQueue;
+import java.util.Queue;
 import java.util.Stack;
 
 /** Futbol data. */
