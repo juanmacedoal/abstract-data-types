@@ -1,7 +1,7 @@
 package com.adt.services.List;
 
 import com.adt.model.Futbol;
-import com.adt.repositories.FutbolRepository;
+import com.adt.repository.FutbolRepository;
 import java.util.LinkedList;
 
 /**
@@ -11,7 +11,7 @@ import java.util.LinkedList;
  */
 public class LinkedListAdt {
 
-  /** Futbol repository. */
+  /** FutbolRepository variable. */
   FutbolRepository futbolRepository;
 
   /**

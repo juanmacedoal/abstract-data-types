@@ -1,7 +1,7 @@
 package com.adt.services.List;
 
 import com.adt.model.Futbol;
-import com.adt.repositories.FutbolRepository;
+import com.adt.repository.FutbolRepository;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class ArrayListAdt {
 
-  /** Futbol Repository. */
+  /** FutbolRepository variable. */
   FutbolRepository futbolRepository;
 
   /**
