@@ -9,6 +9,23 @@ public class Futbol {
   private String bestPlayer;
   private String city;
 
+  /**
+   * Futbol constructor.
+   *
+   * @param team Team of futbol
+   * @param country Country of the team
+   * @param trophys Quantity of throphys
+   * @param bestPlayer Best player of the team
+   * @param city City of the team
+   */
+  public Futbol(String team, String country, int trophys, String bestPlayer, String city) {
+    this.team = team;
+    this.country = country;
+    this.trophys = trophys;
+    this.bestPlayer = bestPlayer;
+    this.city = city;
+  }
+
   public String getTeam() {
     return team;
   }
